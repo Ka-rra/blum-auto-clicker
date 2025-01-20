@@ -40,6 +40,7 @@
         const greenRange = (gc[0] - t < r && r < gc[0] + t) && (gc[1] - t < g && g < gc[1] + t) && (gc[2] - t < b && b < gc[2] + t);
 
         if (greenRange) {
+          if (Math.random() < 0.5) {
           simulateClick(screenCanvas, x, y);
         }
       }
