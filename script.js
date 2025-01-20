@@ -3,7 +3,7 @@
   if (window.BlumAC) return;
   window.BlumAC = true;
 
-  const autoPlay = true;
+  const autoPlay = false;
   const gc = [208, 216, 0];
   const t = 5;
 
